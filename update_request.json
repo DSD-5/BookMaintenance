@@ -1,0 +1,31 @@
+{
+  "autor": {
+    "idautor": 1
+  },
+  "categoria": {
+    "idcategoria":3
+  },
+  "costoalquiler": 100.0,
+  "costoventa": 200.0,
+  "idlibro":16,
+  "descripcion": "HOLA MUNDO DOS",
+  "estado": "1",
+  "librosfisicos": [
+    { 
+      "idlibro":16,
+      "codlibfis": "DDDDDDDDD",
+      "estado": "1",
+      "tipo": "A"
+    },
+    {
+      "idlibro":16,
+      "codlibfis": "JJJJJJJJ",
+      "estado": "1",
+      "tipo": "A"
+    }
+  ],
+  "nombre": "Eventos 2020 peruMOD",
+  "stockalquiler": 10,
+  "stockventa": 10,
+  "tipo": "f"
+}

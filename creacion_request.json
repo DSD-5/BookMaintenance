@@ -1,0 +1,28 @@
+{
+  "autor": {
+    "idautor": 1
+  },
+  "categoria": {
+    "idcategoria":3
+  },
+  "costoalquiler": 5.0,
+  "costoventa": 20.0,
+  "descripcion": "HOLA MUNDO",
+  "estado": "1",
+  "librosfisicos": [
+    {
+      "codlibfis": "AAAAAAAAAAAAAAA",
+      "estado": "1",
+      "tipo": "A"
+    },
+    {
+      "codlibfis": "WWWWWWWWWWWW",
+      "estado": "1",
+      "tipo": "V"
+    }
+  ],
+  "nombre": "Eventos 2020 peruGGG",
+  "stockalquiler": 10,
+  "stockventa": 10,
+  "tipo": "f"
+}
