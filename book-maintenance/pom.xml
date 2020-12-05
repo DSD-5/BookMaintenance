@@ -11,8 +11,8 @@
 	</parent>
 	<groupId>book-maintenance</groupId>
 	<artifactId>book-maintenance</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 	<description>book-maintenance Service</description>
 
 	<properties>
@@ -106,6 +106,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client
+			</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -117,7 +123,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.tutiempolibro.managerentsales.ManageRentSalesApplication</mainClass>
+							<mainClass>com.tutiempolibro.bookmaintenance.BookMaintenanceApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -136,7 +142,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.tutiempolibro.managerentsales.ManageRentSalesApplication</mainClass>
+							<mainClass>com.tutiempolibro.bookmaintenance.BookMaintenanceApplication</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -156,4 +162,15 @@
 		</plugins>
 	</build>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Hoxton.SR9</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

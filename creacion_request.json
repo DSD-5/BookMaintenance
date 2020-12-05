@@ -5,24 +5,54 @@
   "categoria": {
     "idcategoria":3
   },
-  "costoalquiler": 5.0,
+  "costoalquiler": 10.0,
   "costoventa": 20.0,
-  "descripcion": "HOLA MUNDO",
+  "descripcion": "Historia del mundo",
   "estado": "1",
   "librosfisicos": [
     {
-      "codlibfis": "AAAAAAAAAAAAAAA",
+      "codlibfis": "H67389-09",
       "estado": "1",
       "tipo": "A"
     },
     {
-      "codlibfis": "WWWWWWWWWWWW",
+      "codlibfis": "H34JUDF-10",
+      "estado": "1",
+      "tipo": "V"
+    },
+    {
+      "codlibfis": "H34JUDF-11",
+      "estado": "1",
+      "tipo": "A"
+    },
+    {
+      "codlibfis": "H34JUDF-12",
+      "estado": "1",
+      "tipo": "V"
+    },
+    {
+      "codlibfis": "H34JUDF-13",
+      "estado": "1",
+      "tipo": "A"
+    },
+    {
+      "codlibfis": "H34JUDF-14",
+      "estado": "1",
+      "tipo": "A"
+    },
+    {
+      "codlibfis": "H34JUDF-15",
+      "estado": "1",
+      "tipo": "V"
+    },
+    {
+      "codlibfis": "H34JUDF-16",
       "estado": "1",
       "tipo": "V"
     }
   ],
-  "nombre": "Eventos 2020 peruGGG",
-  "stockalquiler": 10,
-  "stockventa": 10,
+  "nombre": "Historia 2020",
+  "stockalquiler": 4,
+  "stockventa": 4,
   "tipo": "f"
 }
